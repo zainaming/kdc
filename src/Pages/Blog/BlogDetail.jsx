@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { blogData } from '../../data/blogData';
+import { blogData } from '../../Data/blogData';
 import BlogHero from '../../assets/blogHeaderImg.png';
 import { IoIosArrowForward } from 'react-icons/io';
 
