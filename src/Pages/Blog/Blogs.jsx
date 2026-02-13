@@ -3,7 +3,7 @@ import PageHeader from '../../components/HeaderBg';
 import BlogHero from '../../assets/blogHeaderImg.png';
 import RecentPosts from '../../components/blog/RecentPosts';
 import PopularPosts from '../../components/blog/PopularPosts';
-import { blogData } from '../../data/blogData';
+import { blogData } from '../../Data/blogData';
 import { Link } from 'react-router-dom';
 
 const Blogs = () => {
