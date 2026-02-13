@@ -1,5 +1,5 @@
 import React from 'react';
-import { blogData } from '../../data/blogData';
+import { blogData } from '../../Data/blogData';
 import { Link } from 'react-router-dom';
 
 const RecentPosts = () => {
