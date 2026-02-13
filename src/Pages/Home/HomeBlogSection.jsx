@@ -1,7 +1,7 @@
 // src/components/Home/HomeBlogSection.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { blogData } from '../../data/blogData'; // Path check kar lein
+import { blogData } from '../../Data/blogData'; // Path check kar lein
 
 const HomeBlogSection = () => {
   // Homepage par sirf top 3 blogs dikhane ke liye
