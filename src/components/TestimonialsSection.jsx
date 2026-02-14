@@ -6,7 +6,7 @@ import testi1 from '../assets/testM.png'
 const testimonials = [
   {
     name: "Sarah M",
-    location: "Chicago, IL",
+    location: "Florida",
     quote: "“The team has been incredible in supporting my son's daily routine and helping him develop new skills. Their person-centered approach makes all the difference, and I always feel informed and respected.”",
     image: testi1,
   },

@@ -69,7 +69,7 @@ const ContactUs = () => {
         {/* INFO CARDS */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8 mb-16 md:mb-24">
           {[
-            { icon: <FaPhoneAlt />, title: "Phone", detail: "321-809-7588" },
+            { icon: <FaPhoneAlt />, title: "Phone", detail: "321-609-7588" },
             { icon: <FaEnvelope />, title: "Email", detail: "kdcserenityhome@gmail.com" },
             { 
               icon: <FaClock />, 
@@ -77,7 +77,7 @@ const ContactUs = () => {
               detail: "Urgent calls: response within 15 minutes",
               sub: "Non-urgent calls: response within 60 minutes"
             },
-            { icon: <FaMapMarkerAlt />, title: "Address", detail: "Lahore, Pakistan" }
+            { icon: <FaMapMarkerAlt />, title: "Address", detail: "NE Palm Bay Area 32907" }
           ].map((item, idx) => (
             <div key={idx} className="flex flex-col items-center text-center group">
               <div className="w-14 h-14 sm:w-16 sm:h-16 bg-[#A4632B] text-white rounded-full flex items-center justify-center text-lg sm:text-xl shadow-lg mb-3 sm:mb-5 transition-transform group-hover:scale-110">
@@ -93,13 +93,14 @@ const ContactUs = () => {
         {/* MAP & FORM */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 items-stretch">
           <div className="w-full min-h-[300px] sm:min-h-[400px] md:min-h-[500px] rounded-xl sm:rounded-2xl lg:rounded-[2rem] overflow-hidden shadow-sm border border-gray-100">
-            <iframe
-              title="Map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108844.22606554865!2d74.23769168434771!3d31.51351111620606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc202c60741278144!2sLahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s"
-              className="w-full h-full grayscale-[0.2]"
-              allowFullScreen=""
-              loading="lazy"
-            ></iframe>
+          <iframe
+  title="Map"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16311.123456789012!2d-80.6882!3d28.0182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88def0example!2sNE+Palm+Bay,+FL+32907,+USA!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s"
+  className="w-full h-full grayscale-[0.2]"
+  allowfullscreen=""
+  loading="lazy"
+></iframe>
+
           </div>
 
           {/* FORM SIDE */}
@@ -128,7 +129,7 @@ const ContactUs = () => {
                 <input 
                   name="user_phone" 
                   type="tel" 
-                  placeholder="321-809-7588" 
+                  placeholder="321-609-7588" 
                   className="w-full px-4 sm:px-5 py-3 sm:py-4 rounded-lg sm:rounded-xl bg-white border border-[#E9DCCB] outline-none focus:border-[#A4632B] text-sm shadow-sm"
                 />
               </div>

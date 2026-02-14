@@ -6,6 +6,9 @@ import service4 from '../assets/serviceImg4.png';
 import service5 from '../assets/serviceImg5.png';
 import service6 from '../assets/serviceImg6.png';
 
+
+// Personal Support, Respite (Under 21), Life Skill Development 1
+
 export const servicesData = [
   {
     id: "respecting-choice",

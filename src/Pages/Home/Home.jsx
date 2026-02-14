@@ -18,9 +18,10 @@ export const Home = () => {
     <SafetyRightsSection /> 
     <AboutMissionSection />
     <ResidentialServicesSection />
-    <GlimpseSection />
-     <QualitySection />
+    {/* <GlimpseSection /> */}
     <HowItWorksSection />
+
+     <QualitySection />
     <OurTeam />
     <TestimonialsSection />
     <HomeBlogSection/>

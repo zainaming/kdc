@@ -36,7 +36,7 @@ const FeedBackSection = () => {
               </p>
               
               {/* Closing Quote Mark */}
-              <div className="text-[#6f7d62] text-5xl md:text-6xl font-serif absolute -bottom-8 -right-4 z-10">
+              <div className="text-[#6f7d62] text-5xl md:text-6xl font-serif absolute -bottom-8 right-80 z-10">
                 "
               </div>
             </div>
@@ -47,7 +47,7 @@ const FeedBackSection = () => {
                 Claudia Porter-Lawrence
               </p>
               <p className="text-gray-500 font-semibold text-xs sm:text-sm mt-1 uppercase tracking-wider">
-                Co-Owner / Co-Administrator
+              Owner/Administrator/ Direct Care Staff (DSP)
               </p>
             </div>
           </div>
