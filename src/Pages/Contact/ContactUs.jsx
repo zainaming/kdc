@@ -8,9 +8,10 @@ import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const VITE_EMAILJS_SERVICE_ID='service_yymhq18'
-const VITE_EMAILJS_TEMPLATE_ID='template_zdj93at'
-const VITE_EMAILJS_PUBLIC_KEY='QBWRMf87mRX_KPaIv'
+
+const VITE_EMAILJS_SERVICE_ID='service_eliaj1n'
+const VITE_EMAILJS_TEMPLATE_ID='template_mdqnl6c'
+const VITE_EMAILJS_PUBLIC_KEY='BgbKyfL-V6e1LJBMp'
 
 const ContactUs = () => {
   const form = useRef();
