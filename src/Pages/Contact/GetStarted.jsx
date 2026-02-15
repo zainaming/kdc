@@ -9,6 +9,10 @@ import { ToastContainer, toast } from 'react-toastify';
 import { AnimatePresence, motion } from 'framer-motion'; 
 import 'react-toastify/dist/ReactToastify.css';
 
+const VITE_EMAILJS_SERVICE_ID='service_yymhq18'
+const VITE_EMAILJS_TEMPLATE_ID='template_zdj93at'
+const VITE_EMAILJS_PUBLIC_KEY='QBWRMf87mRX_KPaIv'
+
 const GetStarted = () => {
   const form = useRef();
   const [showModal, setShowModal] = useState(false);
@@ -63,10 +67,10 @@ const GetStarted = () => {
 
     // --- IF VALIDATION PASSES, SEND EMAIL ---
     emailjs.sendForm(
-      import.meta.env.VITE_EMAILJS_SERVICE_ID, 
-      import.meta.env.VITE_EMAILJS_TEMPLATE_ID, 
+      VITE_EMAILJS_SERVICE_ID, 
+      VITE_EMAILJS_TEMPLATE_ID, 
       form.current, 
-      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      VITE_EMAILJS_PUBLIC_KEY
     )
       .then(() => {
           setShowModal(true);

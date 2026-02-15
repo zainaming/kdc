@@ -26,7 +26,7 @@ const FeedBackSection = () => {
             {/* Quote Content */}
             <div className="relative">
               {/* Opening Quote Mark */}
-              <div className="text-[#6f7d62] text-5xl md:text-6xl font-serif absolute -top-8 -left-4 z-10">
+              <div className="text-[#6f7d62] text-4xl md:text-5xl font-serif absolute -top-4 -left-4 z-10">
                 "
               </div>
               

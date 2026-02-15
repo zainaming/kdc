@@ -8,6 +8,10 @@ import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+const VITE_EMAILJS_SERVICE_ID='service_yymhq18'
+const VITE_EMAILJS_TEMPLATE_ID='template_zdj93at'
+const VITE_EMAILJS_PUBLIC_KEY='QBWRMf87mRX_KPaIv'
+
 const ContactUs = () => {
   const form = useRef();
 
@@ -28,10 +32,10 @@ const ContactUs = () => {
 
     // EmailJS Send using .env keys
     emailjs.sendForm(
-      import.meta.env.VITE_EMAILJS_SERVICE_ID, 
-      import.meta.env.VITE_EMAILJS_TEMPLATE_ID, 
+      VITE_EMAILJS_SERVICE_ID, 
+    VITE_EMAILJS_TEMPLATE_ID, 
       form.current, 
-      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      VITE_EMAILJS_PUBLIC_KEY
     )
       .then((result) => {
           toast.success("Message Sent Successfully!");

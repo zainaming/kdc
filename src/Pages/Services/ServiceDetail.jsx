@@ -60,7 +60,7 @@ const ServiceDetail = () => {
         {/* Top Section: Header & Image */}
         <div className="bg-white rounded-xl overflow-hidden mb-6 sm:mb-8">
           <div className="text-center mb-4 sm:mb-6">
-            <div className="px-3 sm:px-4 py-1.5 sm:py-2 text-[#A4632B] bg-[#EDE0D5] inline-block rounded-full mb-3 sm:mb-4">
+            <div className="px-3 sm:px-4 py-1.5 sm:py-2 text-[#2a241f] border-2 border-[#2a241f] inline-block rounded-full mb-3 sm:mb-4">
               Service Detail
             </div>
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#2a241f] leading-tight">
