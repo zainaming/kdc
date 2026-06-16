@@ -9,6 +9,8 @@ import OurTeam from '../../components/OurTeam'
 import TestimonialsSection from '../../components/TestimonialsSection'
 import QualitySection from './QualitySection'
 import HomeBlogSection from './HomeBlogSection'
+import Benefits from './OurBenefits'
+import Location from './location'
 
 
 export const Home = () => {
@@ -17,10 +19,12 @@ export const Home = () => {
    <Hero /> 
     <SafetyRightsSection /> 
     <AboutMissionSection />
+   
     <ResidentialServicesSection />
     {/* <GlimpseSection /> */}
     <HowItWorksSection />
-
+      <Benefits/>
+      <Location />
      <QualitySection />
     <OurTeam />
     <TestimonialsSection />

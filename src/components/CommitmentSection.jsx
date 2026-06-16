@@ -3,7 +3,8 @@ import React from 'react';
 import commitmentImage1 from '../assets/comm1.png';
 import commitmentImage2 from '../assets/comm2.png';
 import commitmentImage3 from '../assets/comit3.png';
-import commitmentImage4 from '../assets/comit4.png';
+import commitmentImage4 from '../assets/ethical.svg';
+
 
 const commitmentItems = [
   {

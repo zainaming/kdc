@@ -3,7 +3,7 @@ import React from 'react';
 
 import zeroToleranceImg from '../../assets/mission.png';     
 import emergencyImg from '../../assets/safetysection2.png';   
-import privacyImg from '../../assets/safetysection3.png'; 
+import privacyImg from '../../assets/privacy.svg'; 
 
 const cards = [
   {
@@ -25,7 +25,7 @@ const cards = [
 
 const SafetyRightsSection = () => {
   return (
-    <section className="bg-white py-8 sm:py-12 lg:py-16">
+    <section className="bg-white py-8 sm:py-12 lg:py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Top Tag */}

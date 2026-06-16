@@ -20,28 +20,17 @@ const Hero = () => {
 
             {/* Main Heading - Responsive font sizes */}
             <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#2a241f]">
-              A Safe and <br className="hidden sm:block" />
-              <span className="text-[#A4632B]">Supportive</span> Place to{" "}
-              <br className="hidden sm:block" />
-              Call Home
+              A Safe Home. A <br className="hidden sm:block" />
+              <span className="text-[#A4632B]">Supportive</span> Community. A
+              Better <br className="hidden sm:block" />
+              Quality of Life
             </h1>
 
             {/* Description - Responsive text */}
             <p className="text-base sm:text-lg text-gray-700 max-w-xl sm:max-w-2xl leading-relaxed">
-              Person centered residential services for adults with developmental
-              disabilities — built on dignity, safety, and choice.
+              Nurse-Owned Residential Support Home for Adults with Intellectual
+              and Developmental Disabilities
             </p>
-
-            {/* Buttons - Responsive layout */}
-            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-              <Link
-                to="/get-started"
-                className="px-6 sm:px-8 py-3 bg-[#A4632B] hover:bg-[#A4632B]/80 text-white font-semibold rounded-full text-base sm:text-lg transition-colors flex items-center justify-center gap-2 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#A4632B] focus:ring-offset-2"
-                aria-label="Get started with our services"
-              >
-                Get Started →
-              </Link>
-            </div>
 
             {/* Trust badges - Responsive wrapping */}
             <div className="flex flex-wrap items-center gap-4 sm:gap-6 pt-2">
@@ -58,18 +47,29 @@ const Hero = () => {
                 24/7 Support
               </div>
             </div>
+
+            {/* Buttons - Responsive layout */}
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+              <Link
+                to="/get-started"
+                className="px-6 sm:px-8 py-3 bg-[#A4632B] hover:bg-[#A4632B]/80 text-white font-semibold rounded-full text-base sm:text-lg transition-colors flex items-center justify-center gap-2 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#A4632B] focus:ring-offset-2"
+                aria-label="Get started with our services"
+              >
+                Get Started →
+              </Link>
+            </div>
           </div>
 
           {/* Right Image Section - Fixed for mobile */}
           <div className="relative order-1 lg:order-2 ">
-         <div className="overflow-hidden h-[300px] sm:h-[300px] md:h-[400px] lg:h-[500px]">
-  <img
-    src={hero}
-    alt="Caregiver assisting senior woman in wheelchair"
-    className="w-full h-full object-cover rounded-2xl sm:rounded-3xl"
-    loading="lazy"
-  />
-</div>
+            <div className="overflow-hidden h-[300px] sm:h-[300px] md:h-[400px] lg:h-[500px]">
+              <img
+                src={hero}
+                alt="Caregiver assisting senior woman in wheelchair"
+                className="w-full h-full object-cover rounded-2xl sm:rounded-3xl"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </div>

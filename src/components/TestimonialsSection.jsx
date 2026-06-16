@@ -56,7 +56,7 @@ const TestimonialsSection = () => {
   const current = testimonials[currentIndex];
 
   return (
-    <section className="bg-white py-12 lg:py-16">
+    <section className="bg-white py-8 md:py-12 lg:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* PARENT GRID - 2 COLUMNS ON MD/LG, 1 COLUMN ON SM */}
