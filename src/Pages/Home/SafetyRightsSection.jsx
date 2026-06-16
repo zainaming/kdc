@@ -3,7 +3,7 @@ import React from 'react';
 
 import zeroToleranceImg from '../../assets/mission.png';     
 import emergencyImg from '../../assets/safetysection2.png';   
-import privacyImg from '../../assets/privacy.svg'; 
+import privacyImg from '../../assets/privacy.png'; 
 
 const cards = [
   {

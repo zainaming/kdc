@@ -3,7 +3,7 @@ import React from 'react';
 const PageHeader = ({ label, title, description, lastUpdated, backgroundImage }) => {
   return (
     <section 
-      className="relative min-h-[320px] sm:min-h-[380px] md:min-h-[420px] lg:min-h-[480px] flex items-center bg-cover bg-center bg-no-repeat overflow-hidden"
+      className="relative min-h-[320px] sm:min-h-[380px] md:min-h-[420px] lg:min-h-[580px] flex items-center bg-cover bg-top  bg-no-repeat overflow-hidden"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       {/* Light Overlay for readability */}
@@ -38,6 +38,7 @@ const PageHeader = ({ label, title, description, lastUpdated, backgroundImage })
           </p>
         )}
       </div>
+      <div></div>
     </section>
   );
 };

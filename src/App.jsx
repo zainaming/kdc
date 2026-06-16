@@ -14,6 +14,7 @@ import Service from "./Pages/Services/Service"
 import BlogDetail from "./Pages/Blog/BlogDetail"
 import ServiceDetail from "./Pages/Services/ServiceDetail"
 import ScrollToTop from './components/ScrollToTop';
+import Residences from "./Pages/residences/residences"
 
 
 
@@ -40,6 +41,7 @@ function App() {
           <Route path="/about-us" element={<About />} />
           <Route path="/services" element={<Service />} />
           <Route path="/services/:id" element={<ServiceDetail />} />
+          <Route path="/residences" element={<Residences />} />
         </Routes>
         <Footer />
       </Router>

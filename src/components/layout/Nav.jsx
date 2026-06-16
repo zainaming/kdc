@@ -77,6 +77,7 @@ function Navbar() {
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about-us" },
     { name: "How its Works", path: "/how-its-works" },
+    { name: "Residences", path: "/residences" },
     { name: "Services", path: "/services" },
     { name: "Blogs", path: "/blogs" },
     { name: "Contact Us", path: "/contact-us" }
