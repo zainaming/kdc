@@ -32,7 +32,7 @@ const FeedBackSection = () => {
               
               {/* Quote Text */}
               <p className="text-[#5a5a5a] text-sm sm:text-base md:text-lg leading-relaxed font-medium pl-4">
-                The leadership of KDARHope Serenity Home LLC is committed to fostering a safe, respectful, and person-centered environment where individuals with disabilities are supported to live with dignity, independence, and purpose. Our vision is to lead with integrity, accountability, and compassion, ensuring that all services meet the highest standards of quality, safety, and ethical care. Through collaborative leadership, continuous improvement, and a strong commitment to rights protection, we strive to create a supportive residential setting where individuals, families, and staff feel valued, heard, and empowered.
+                The leadership of KDC Serenity Home LLC is committed to fostering a safe, respectful, and person-centered environment where individuals with disabilities are supported to live with dignity, independence, and purpose. Our vision is to lead with integrity, accountability, and compassion, ensuring that all services meet the highest standards of quality, safety, and ethical care. Through collaborative leadership, continuous improvement, and a strong commitment to rights protection, we strive to create a supportive residential setting where individuals, families, and staff feel valued, heard, and empowered.
               </p>
               
               {/* Closing Quote Mark */}

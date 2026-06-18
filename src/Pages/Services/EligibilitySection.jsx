@@ -37,7 +37,7 @@ const EligibilitySection = () => {
             
             {/* Description - Responsive Text */}
             <p className="text-sm sm:text-base text-[#6f7d62] max-w-2xl leading-relaxed">
-              Services at KDARHope Serenity Home LLC begin only after an individual's eligibility and authorization have been confirmed. This ensures that supports are appropriate, safe, and aligned with each person's needs and funding requirements.
+              Services at KDC Serenity Home LLC begin only after an individual's eligibility and authorization have been confirmed. This ensures that supports are appropriate, safe, and aligned with each person's needs and funding requirements.
             </p>
             
             {/* Steps - Mapped and Responsive */}

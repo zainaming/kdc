@@ -46,7 +46,7 @@ const AboutMissionSection = () => {
 
             {/* Mission Text - Responsive */}
             <p className="text-base sm:text-lg text-[#6A5E54] mb-8 sm:mb-1 leading-relaxed">
-              KDARHope Serenity Home provides a welcoming, person-centered
+              KDC Serenity Home provides a welcoming, person-centered
               environment where residents are supported in building
               independence, developing life skills, participating in community
               activities, and enjoying a meaningful quality of life. Owned and

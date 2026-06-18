@@ -104,7 +104,7 @@ const PrivacyPolicy = () => {
       <PageHeader 
         label="Privacy Policy"
         title="Your Privacy is Our Priority"
-        description="This Privacy Policy explains how KDARHope Serenity Home LLC collects, uses, protects, and shares personal information in connection with our services and website."
+        description="This Privacy Policy explains how KDC Serenity Home LLC collects, uses, protects, and shares personal information in connection with our services and website."
         lastUpdated="Last updated: August 1, 2025"
         backgroundImage={PrivacyImg}
       />

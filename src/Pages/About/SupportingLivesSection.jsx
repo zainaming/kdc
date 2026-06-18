@@ -44,7 +44,7 @@ const SupportingLivesSection = () => {
                 We believe in the power of clear vision and unwavering dedication.
               </p>
               <p>
-                At KDARHope Serenity Home LLC, our purpose is to provide a safe, supportive, and welcoming home environment where individuals with disabilities are treated with dignity, respect, and compassion.
+                At KDC Serenity Home LLC, our purpose is to provide a safe, supportive, and welcoming home environment where individuals with disabilities are treated with dignity, respect, and compassion.
               </p>
               <p>
                 Our approach focuses on promoting independence, well-being, and quality of life while ensuring health, safety, and rights are always protected.

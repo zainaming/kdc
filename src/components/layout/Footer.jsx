@@ -123,7 +123,7 @@ const Footer = () => {
           
           {/* Left Side: Logo and Tagline */}
           <div className="flex flex-col items-start max-w-[250px] sm:max-w-[300px]">
-            <img src={logo} alt="KDARHope Logo" className="w-24 sm:w-28 md:w-32 h-auto" />
+            <img src={logo} alt="KDC Logo" className="w-24 sm:w-28 md:w-32 h-auto" />
             <p className="text-gray-600 text-[12px] sm:text-[13px] leading-relaxed mt-3 md:mt-4">
               All services are delivered according to assessed needs and documented person-centered plans.
             </p>

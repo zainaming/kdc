@@ -324,7 +324,7 @@ const GetStarted = () => {
       <PageHeader 
         label={label}
         title={title}
-        description="We're here to help you explore whether KDARHope Serenity Home is the right fit. This process is confidential and obligation-free."
+        description="We're here to help you explore whether KDC Serenity Home is the right fit. This process is confidential and obligation-free."
         backgroundImage={GetStartedimg}
       />
 

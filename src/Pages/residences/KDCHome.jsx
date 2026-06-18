@@ -18,13 +18,13 @@ const KDCHome = () => {
   </span>
 
   <Typography size="h1" className="text-[#2D2621] font-serif font-medium text-3xl md:text-4xl lg:text-5xl leading-tight">
-    KDARHope Serenity Home Located in Palm Bay, Florida
+    KDC Serenity Home Located in Palm Bay, Florida
   </Typography>
 </div>
         
         <div className="space-y-4 text-[#5A4E45] font-normal leading-relaxed text-sm md:text-base">
           <Typography size={"lg"} className="text-desc-color">
-            KDARHope Serenity Home is a thoughtfully designed sober living residence
+            KDC Serenity Home is a thoughtfully designed sober living residence
             created to offer comfort, calm, and stability in early recovery.
             Located in a peaceful and accessible neighborhood, the home provides
             an environment where residents can focus on healing while staying
@@ -43,7 +43,7 @@ const KDCHome = () => {
             connection and a sense of community among residents.
           </Typography>
           <Typography size={"lg"} className="text-desc-color">
-            KDARHope Serenity Home is also conveniently located near essential
+            KDC Serenity Home is also conveniently located near essential
             services, local job opportunities, and recovery resources, making it
             easier for residents to rebuild independence while staying on track
             with their sobriety journey.
@@ -58,7 +58,7 @@ const KDCHome = () => {
           <img
             src={kdckitchen} // Apni image ya video ka path lagayein
             className="w-full h-full object-cover"
-            alt="KDARHope Kitchen Area"
+            alt="KDC Kitchen Area"
           />
         </div>
 
@@ -69,7 +69,7 @@ const KDCHome = () => {
             <img
               src={kdclounge} // Apni image ya video ka path lagayein
               className="w-full h-full object-cover"
-              alt="KDARHope Living Room"
+              alt="KDC Living Room"
             />
           </div>
           {/* Bottom video/image (Backyard) */}
@@ -77,7 +77,7 @@ const KDCHome = () => {
             <img
               src={kdcbackyard} // Apni image ya video ka path lagayein
               className="w-full h-full object-cover"
-              alt="KDARHope Backyard"
+              alt="KDC Backyard"
             />
           </div>
         </div>

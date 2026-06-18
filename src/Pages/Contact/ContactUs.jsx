@@ -75,7 +75,7 @@ const ContactUs = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8 mb-16 md:mb-24">
           {[
             { icon: <FaPhoneAlt />, title: "Phone", detail: "321-609-7588" },
-            { icon: <FaEnvelope />, title: "Email", detail: "kdarhopeserenityhome@gmail.com" },
+            { icon: <FaEnvelope />, title: "Email", detail: "KDCserenityhome@gmail.com" },
             { 
               icon: <FaClock />, 
               title: "24/7 Coverage", 

@@ -46,7 +46,7 @@ export const blogData = [
       {
         type: "quote",
         text: "\"Thoughtful planning today lays the foundation for safe, person-centered support tomorrow. By taking the time to understand individual needs, confirm eligibility.\"",
-        author: "— KDARHope Serenity Home Leadership Team"
+        author: "— KDC Serenity Home Leadership Team"
       },
       {
         type: "heading",
@@ -149,7 +149,7 @@ export const blogData = [
       {
         type: "quote",
         text: "\"Every small step toward independence is a victory worth celebrating.\"",
-        author: "— KDARHope Serenity Home Team"
+        author: "— KDC Serenity Home Team"
       },
       {
         type: "image",
@@ -258,7 +258,7 @@ export const blogData = [
       {
         type: "quote",
         text: "\"Safety and rights go hand in hand in quality care environments.\"",
-        author: "— KDARHope Serenity Home"
+        author: "— KDC Serenity Home"
       },
       {
         type: "heading",
@@ -366,7 +366,7 @@ export const blogData = [
       {
         type: "quote",
         text: "\"Early preparation helps streamline the authorization process.\"",
-        author: "— KDARHope Serenity Home Team"
+        author: "— KDC Serenity Home Team"
       },
       {
         type: "heading",
@@ -477,7 +477,7 @@ export const blogData = [
       {
         type: "quote",
         text: "\"Smooth transitions require teamwork, planning, and compassion.\"",
-        author: "— KDARHope Serenity Home Leadership"
+        author: "— KDC Serenity Home Leadership"
       },
       {
         type: "heading",
