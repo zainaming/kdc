@@ -10,25 +10,25 @@ const commitmentItems = [
   {
     number: "01",
     title: "Person-centered care",
-    description: "We tailor services to each individual's needs, preferences, and goals. Care plans respect personal choice, dignity, and daily routines.",
+    description: "We tailor services to each individual's needs, preferences, and goals. Care plans respect personal choice, dignity, and daily routines. We encourage active participation in decision-making, empowering individuals to lead lives that reflect their unique values and aspirations.",
     image: commitmentImage1
   },
   {
     number: "02",
     title: "Secure documentation",
-    description: "All records are maintained securely and confidentially. Access is limited to authorized personnel in compliance with privacy standards.",
+    description: "All records are maintained securely and confidentially. Access is limited to authorized personnel in compliance with privacy standards. We are committed to safeguarding personal information and maintaining the trust of those we serve through strict confidentiality practices.",
     image: commitmentImage2
   },
   {
     number: "03",
     title: "Licensed & compliant services",
-    description: "Our services meet all licensing and regulatory requirements. We operate in accordance with applicable laws and care standards.",
+    description: "Our services meet all licensing and regulatory requirements. We operate in accordance with applicable laws and care standards. We continuously monitor and improve our practices to ensure the highest level of compliance, safety, and quality of care.",
     image: commitmentImage3
   },
   {
     number: "04",
-    title: "Ethical & transparent practices",
-    description: "We act with honesty, accountability, and integrity in all interactions. Our decisions and processes are clear, responsible, and person-focused.",
+    title: "Ethical & transparent practices.",
+    description: "We act with honesty, accountability, and integrity in all interactions. Our decisions and processes are clear, responsible, and person-focused. We foster trust through open communication, ethical practices, and a commitment to delivering consistent, high-quality support.",
     image: commitmentImage4
   }
 ];

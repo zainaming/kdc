@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
-import location from "../../assets/primelocation.svg";
+import location from "../../assets/primelocation.png";
 
 const Location = () => {
   return (
@@ -51,7 +51,7 @@ const Location = () => {
           <div className="w-full h-full flex items-center justify-center">
             <img 
               src={location}
-              alt="KDC Serenity Home Exterior" 
+              alt="KDARHope Serenity Home Exterior" 
               className="w-full h-[350px] object-cover rounded-[2rem] shadow-sm"
             />
           </div>
@@ -63,7 +63,7 @@ const Location = () => {
             </h3>
             
             <p className="text-[#5C5552] text-xs md:text-sm leading-relaxed font-light">
-              Conveniently located in Palm Bay, KDC Serenity Home is just minutes away from urgent care 
+              Conveniently located in Palm Bay, KDARHope Serenity Home is just minutes away from urgent care 
               centers, hospitals, shopping centers, restaurants, barber shops, salons, and other personal 
               care services. With quick access to major transportation routes, including I-95, residents 
               enjoy seamless connectivity to healthcare, community activities, and everyday essentials—supporting 
@@ -76,7 +76,7 @@ const Location = () => {
         
         <div className="text-center mt-6">
           <p className="text-[#A47551] font-medium text-sm md:text-base px-4">
-            At KDC Serenity Home, we are committed to creating a supportive, respectful, and enriching environment
+            At KDARHope Serenity Home, we are committed to creating a supportive, respectful, and enriching environment
           </p>
         </div>
 

@@ -12,7 +12,7 @@ export const blogData = [
   {
     id: 1,
     category: "Family Guidance",
-    date: "16 March 2023",
+    date: "16 March 2022",
     title: "What Families Should Know About Residential Support Services",
     desc: "Residential support services are designed to provide safe, structured, and supportive living environments while promoting independence and quality of life. Services are delivered based on assessed needs, authorized supports, and a documented person-centered plan that reflects individual goals, routines, and preferences.",
     image: Blog1,
@@ -46,7 +46,7 @@ export const blogData = [
       {
         type: "quote",
         text: "\"Thoughtful planning today lays the foundation for safe, person-centered support tomorrow. By taking the time to understand individual needs, confirm eligibility.\"",
-        author: "— KDC Serenity Home Leadership Team"
+        author: "— KDARHope Serenity Home Leadership Team"
       },
       {
         type: "heading",
@@ -118,7 +118,7 @@ export const blogData = [
   {
     id: 2,
     category: "Safety & Rights",
-    date: "16 March 2023",
+    date: "13 April 2023",
     title: "Supporting Independence Through Daily Living Skills",
     desc: "Supporting independence is a key part of person-centered care. Skill-building focuses on helping individuals develop the abilities needed for everyday life, such as personal care, meal preparation, communication, and community participation. These supports are tailored to each person's strengths, goals, and preferences, ensuring progress happens at a comfortable and respectful pace.",
     image: Blog2,
@@ -149,7 +149,7 @@ export const blogData = [
       {
         type: "quote",
         text: "\"Every small step toward independence is a victory worth celebrating.\"",
-        author: "— KDC Serenity Home Team"
+        author: "— KDARHope Serenity Home Team"
       },
       {
         type: "image",
@@ -177,7 +177,7 @@ export const blogData = [
   {
     id: 3,
     category: "Family Guidance",
-    date: "13 March 2023",
+    date: "06 June 2024",
     title: "Understanding Person-Centered Care",
     desc: "Learn what person-centered care means and how individualized planning supports dignity, choice, and independence in daily life.",
     image: Blog3,
@@ -231,7 +231,7 @@ export const blogData = [
   {
     id: 4,
     category: "Family Guidance",
-    date: "13 March 2023",
+    date: "15 August 2024",
     title: "Safety, Rights, And Advocacy In Residential Care",
     desc: "An overview of health, safety, and individual rights, including privacy, consent, and how concerns are addressed.",
     image: Blog4,
@@ -258,7 +258,7 @@ export const blogData = [
       {
         type: "quote",
         text: "\"Safety and rights go hand in hand in quality care environments.\"",
-        author: "— KDC Serenity Home"
+        author: "— KDARHope Serenity Home"
       },
       {
         type: "heading",
@@ -286,7 +286,7 @@ export const blogData = [
   {
     id: 5,
     category: "Family Guidance",
-    date: "13 March 2023",
+    date: "17 December 2024",
     title: "How Secure Documentation Protects Individuals And Families",
     desc: "Understand why secure records management matters and how confidentiality and compliance are maintained, and how concerns are addressed.",
     image: Blog5,
@@ -340,7 +340,7 @@ export const blogData = [
   {
     id: 6,
     category: "Family Guidance",
-    date: "13 March 2023",
+    date: "19 March 2025",
     title: "Navigating Eligibility And Service Authorization",
     desc: "An overview of eligibility requirements, funding approvals, and what families can expect before services begin.",
     image: Blog6,
@@ -366,7 +366,7 @@ export const blogData = [
       {
         type: "quote",
         text: "\"Early preparation helps streamline the authorization process.\"",
-        author: "— KDC Serenity Home Team"
+        author: "— KDARHope Serenity Home Team"
       },
       {
         type: "heading",
@@ -394,7 +394,7 @@ export const blogData = [
   {
     id: 7,
     category: "Family Guidance • Care & Support",
-    date: "13 March 2023",
+    date: "03 June 2023",
     title: "Promoting Dignity And Respect In Daily Care",
     desc: "Explore how respectful communication and choice-based support strengthen trust and individual well-being.",
     image: Blog7,
@@ -447,7 +447,7 @@ export const blogData = [
   {
     id: 8,
     category: "Transitions & Planning • Care & Support",
-    date: "13 March 2023",
+    date: "22 September 2023",
     title: "Coordinating Care During Life Transition",
     desc: "How proper coordination, consent, and planning help ensure smooth transitions between services or living arrangements.",
     image: Blog8,
@@ -477,7 +477,7 @@ export const blogData = [
       {
         type: "quote",
         text: "\"Smooth transitions require teamwork, planning, and compassion.\"",
-        author: "— KDC Serenity Home Leadership"
+        author: "— KDARHope Serenity Home Leadership"
       },
       {
         type: "heading",

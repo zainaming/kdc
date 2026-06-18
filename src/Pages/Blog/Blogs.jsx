@@ -17,6 +17,7 @@ const Blogs = () => {
         title="Insights, Guidance, And Updates"
         description="Explore articles designed to inform, support, and guide individuals and families through care, services, and daily living topics."
         backgroundImage={BlogHero}
+        className="mt-12 md:mt-0"
       />
 
       {/* 2. Responsive Featured Post Section */}

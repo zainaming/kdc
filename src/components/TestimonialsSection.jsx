@@ -1,7 +1,9 @@
 // src/components/TestimonialsSection.jsx
 import React, { useState } from 'react';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-import testi1 from '../assets/testM.png'
+import testi1 from '../assets/testi1.png'
+import testi from "../assets/testD.png";
+import testi3 from "../assets/testi3.png";
 
 const testimonials = [
   {
@@ -14,13 +16,13 @@ const testimonials = [
     name: "Michael R",
     location: "Austin, TX",
     quote: "“We are so grateful for the compassionate care and attention to detail. The support workers truly understand our daughter's needs and make every day better.”",
-    image: testi1,
+    image: testi,
   },
   {
     name: "Emily T",
     location: "New York, NY",
     quote: "“The coordinators are exceptional at creating personalized plans. Our family feels heard, supported, and confident in the care provided.”",
-    image: testi1,
+    image: testi3,
   },
   {
     name: "David K",
@@ -32,13 +34,13 @@ const testimonials = [
     name: "Jennifer L",
     location: "Boston, MA",
     quote: "“I appreciate how they listen to our concerns and adapt quickly. The communication is always clear and compassionate.”",
-    image: testi1,
+    image: testi,
   },
   {
     name: "Robert P",
     location: "Denver, CO",
     quote: "“Their commitment to quality care shines through in every interaction. We couldn't be happier with the support we've received.”",
-    image: testi1,
+    image: testi3,
   },
 ];
 

@@ -1,8 +1,10 @@
 import { Typography } from "../../components/shared/Typography";
 // Agar aapke paas icon library hai to use karein, warna niche main ne SVG arrow add kiya hai.
 import { ArrowRight } from "lucide-react"; 
+import { useNavigate } from "react-router-dom";
 
 const BeginYourJourney = () => {
+  const navigate = useNavigate();
   return (
     // 'container2' ko check karlein, standard tailwind ke liye 'max-w-7xl mx-auto px-4' behtar hai
     <section className="container2 w-full px-4">
@@ -21,7 +23,14 @@ const BeginYourJourney = () => {
 
         <div>
           <button
-            // onClick={() => router.push("/about")}
+            // onClick={() => navigation("/get-started")}
+            onClick={() => navigate("/get-started", {
+      state: {
+        label: "Apply Now Here",
+        title: "Let's begin your Journey",
+      },
+    })}
+
             className="bg-[#94592B] hover:bg-[#7d4a23] text-white font-medium px-6 py-3 rounded-full flex items-center gap-2 transition-all duration-200 text-sm md:text-base shadow-sm"
           >
             Apply Now

@@ -10,11 +10,11 @@ import about from '../../assets/aboutHeaderImg.png'
 const About = () => {
   return (
     <>
-      <PageHeader label='About Us' title="The Heart of KDC Serenity Home" backgroundImage={about} description='KDC Serenity Home LLC provides residential and support services rooted in dignity, safety, and person-centered care.'  />
+      <PageHeader label='About Us' title="The Heart of KDARHope Serenity Home" backgroundImage={about} description='KDARHope Serenity Home LLC provides residential and support services rooted in dignity, safety, and person-centered care.'  />
       <SupportingLivesSection />
-      <FeedBackSection />
-      <CommitmentSection />
       <OurTeam />
+      <CommitmentSection />
+      <FeedBackSection />
       <ReadySection />
       <TestimonialsSection />
       

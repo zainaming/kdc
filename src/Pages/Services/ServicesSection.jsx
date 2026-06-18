@@ -10,7 +10,7 @@ const ServicesSection = () => {
         
         {/* Heading - Fully Responsive */}
         <div className="text-center mb-8 sm:mb-10 md:mb-12">
-          <span className="border-2 border-[#2a241f] text-[#2a241f] px-4 py-1.5 sm:px-5 sm:py-2 rounded-full text-sm sm:text-base font-medium mb-3 sm:mb-4 inline-block">
+          <span className="border-2 border-[#2a241f] text-[#8B5E3C] px-4 py-1.5 sm:px-5 sm:py-2 rounded-full text-sm sm:text-base font-medium mb-3 sm:mb-4 inline-block">
             Our Services
           </span>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#2a241f] mb-3 sm:mb-4 leading-tight">

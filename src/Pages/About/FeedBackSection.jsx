@@ -32,11 +32,11 @@ const FeedBackSection = () => {
               
               {/* Quote Text */}
               <p className="text-[#5a5a5a] text-sm sm:text-base md:text-lg leading-relaxed font-medium pl-4">
-                The leadership of KDC Serenity Home LLC is committed to fostering a safe, respectful, and person-centered environment where individuals with disabilities are supported to live with dignity, independence, and purpose. Our vision is to lead with integrity, accountability, and compassion, ensuring that all services meet the highest standards of quality, safety, and ethical care. Through collaborative leadership, continuous improvement, and a strong commitment to rights protection, we strive to create a supportive residential setting where individuals, families, and staff feel valued, heard, and empowered.
+                The leadership of KDARHope Serenity Home LLC is committed to fostering a safe, respectful, and person-centered environment where individuals with disabilities are supported to live with dignity, independence, and purpose. Our vision is to lead with integrity, accountability, and compassion, ensuring that all services meet the highest standards of quality, safety, and ethical care. Through collaborative leadership, continuous improvement, and a strong commitment to rights protection, we strive to create a supportive residential setting where individuals, families, and staff feel valued, heard, and empowered.
               </p>
               
               {/* Closing Quote Mark */}
-              <div className="text-[#6f7d62] text-5xl md:text-6xl font-serif absolute -bottom-8 right-80 z-10">
+              <div className="text-[#6f7d62] text-5xl md:text-6xl font-serif absolute -bottom-16 right-12 z-10">
                 "
               </div>
             </div>
@@ -47,7 +47,7 @@ const FeedBackSection = () => {
                 Claudia Porter-Lawrence
               </p>
               <p className="text-gray-500 font-semibold text-xs sm:text-sm mt-1 uppercase tracking-wider">
-              Owner/Administrator/ Direct Care Staff (DSP)
+              Owner/Administrator/ Direct Care Staff (DCP)
               </p>
             </div>
           </div>

@@ -3,7 +3,7 @@ import ServicesSection from './ServicesSection'
 import TestimonialsSection from '../../components/TestimonialsSection'
 import ReadySection from '../About/ReadySection'
 import PageHeader from '../../components/HeaderBg'
-import service from '../../assets/service4.png'
+import service from '../../assets/service2.png'
 import OurApproachSection from './OurApproachSection'
 import EligibilitySection from './EligibilitySection'
 const Service = () => {

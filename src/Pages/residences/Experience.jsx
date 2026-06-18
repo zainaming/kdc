@@ -14,7 +14,7 @@ const Experience = () => {
   </span>
 
   <Typography size="h1s" className="text-[#2D2621] font-serif font-medium text-3xl md:text-5xl leading-tight">
-    What You will Experience at KDC Serenity Home
+    What You will Experience at KDARHope Serenity Home
   </Typography>
 
   <Typography size={"lg"} className="text-[#7A6E65] text-sm md:text-base tracking-wide font-normal">

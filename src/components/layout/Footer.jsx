@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaFacebookF, FaXTwitter, FaInstagram, FaYoutube, FaChevronDown } from 'react-icons/fa6';
 import { IoArrowForward } from 'react-icons/io5';
 import { FiLock, FiFileText, FiShield } from 'react-icons/fi';
-import logo from './../../assets/logo.png';
+import logo from './../../assets/logo.svg';
 import { Link, useLocation } from 'react-router-dom';
 
 const Footer = () => {
@@ -73,6 +73,7 @@ const Footer = () => {
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about-us" },
     { name: "How Works", path: "/how-works" },
+    { name: "Residences", path: "/residences" },
     { name: "Services", path: "/services" },
     { name: "Blogs", path: "/blogs" },
     { name: "Contact Us", path: "/contact-us" }
@@ -122,7 +123,7 @@ const Footer = () => {
           
           {/* Left Side: Logo and Tagline */}
           <div className="flex flex-col items-start max-w-[250px] sm:max-w-[300px]">
-            <img src={logo} alt="KDC Logo" className="w-24 sm:w-28 md:w-32 h-auto" />
+            <img src={logo} alt="KDARHope Logo" className="w-24 sm:w-28 md:w-32 h-auto" />
             <p className="text-gray-600 text-[12px] sm:text-[13px] leading-relaxed mt-3 md:mt-4">
               All services are delivered according to assessed needs and documented person-centered plans.
             </p>
@@ -244,7 +245,7 @@ const Footer = () => {
         {/* 3. Footer Bottom Line */}
         <div className="mt-8 md:mt-10 pt-6 md:pt-8 border-t border-[#E9DCCB] text-center">
           <p className="text-gray-500 text-[12px] sm:text-[13px] font-medium tracking-wide px-4">
-            © 2026 KDC Serenity Home LLC. All Rights Reserved.
+            © 2026 KDAR Serenity Home LLC. All Rights Reserved.
           </p>
         </div>
       </div>

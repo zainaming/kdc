@@ -47,7 +47,7 @@ const ResidentialServicesSection = () => {
                 Our Services
              </div>
              <h2 className="text-4xl md:text-5xl font-bold text-[#2a241f] leading-tight mb-6">
-               Residential & <br className="hidden md:block"/> Support Services
+               Our Services is  <br className="hidden md:block"/> For Sober Home
              </h2>
              
              <div className="flex flex-col items-start">

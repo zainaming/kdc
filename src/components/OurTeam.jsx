@@ -10,14 +10,14 @@ import team3 from '../assets/teamM2.jpg'
 const teamMembers = [
   {
     name: "Dr. Claudia Porter-Lawrence, DNP, PMHNP-BC",
-    role: "Owner/Administrator/ Direct Care Staff (DSP)",
+    role: "Owner/Administrator/ Direct Care Staff (DCP)",
     desc: "Our care coordinators plan and manage daily support tailored to each individual.",
   
       image: team2,
   },
   {
     name: "Keisha Nathan",
-    role: "Administrator/ Direct Care Staff (DSP)",
+    role: "Administrator/ Direct Care Staff (DCP)",
     desc: "Skilled support workers assist with daily living activities, mobility, and skill-building.",
     image: team3,
   },
@@ -56,7 +56,7 @@ const OurTeam = () => {
               <img
                 src={member.image}
                 alt={member.name}
-                className="w-full h-[500px] md:h-[530px] lg:h-[600px] "
+                className="w-full h-[500px] md:h-[600px] lg:h-[700px] "
               />
 
               {/* Dark overlay for readability */}

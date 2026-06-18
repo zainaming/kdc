@@ -564,7 +564,7 @@ export const contactmethod = [
   {
     icon: "lucide:message-square-text",
     title: "Email",
-    desc: "kdcserenityhome@gmail.com",
+    desc: "kdarhopeserenityhome@gmail.com",
   },
   {
     icon: "ix:inquiry-filled",
@@ -603,7 +603,7 @@ export const faqs = [
 export const blogs = [
   {
     id: 1,
-    title: "Your First Week at KDC Home",
+    title: "Your First Week at KDARHope Home",
     image: "/assets/svgs/blog1.svg",
     authorImage: "/assets/svgs/author-blog1.svg",
     author: "Olivia Rhye",
@@ -611,7 +611,7 @@ export const blogs = [
   },
   {
     id: 2,
-    title: "The KDC Serenity Home Experience",
+    title: "The KDARHope Serenity Home Experience",
     image: "/assets/svgs/blog2.svg",
     authorImage: "/assets/svgs/author-blog2.svg",
     author: "Ethan Walker",
@@ -619,7 +619,7 @@ export const blogs = [
   },
   {
     id: 3,
-    title: "The KDC Serenity Home Experience",
+    title: "The KDARHope Serenity Home Experience",
     image: "/assets/svgs/blog3.svg",
     authorImage: "/assets/svgs/author-blog3.svg",
     author: "Noah Bennett",
@@ -943,14 +943,14 @@ export const testimonials = [
     image: "/assets/svgs/testimonial1.svg",
     designation: "Resident",
     review:
-      "KDC Serenity Home gave me the structure I needed without ever making me feel controlled or restricted. From day one, I felt respected and supported, not judged. The environment is calm, clean, and genuinely focused on helping you grow. It truly feels like a place where you can rebuild your life step by step, with the right balance of guidance and independence.”",
+      "KDARHope Serenity Home gave me the structure I needed without ever making me feel controlled or restricted. From day one, I felt respected and supported, not judged. The environment is calm, clean, and genuinely focused on helping you grow. It truly feels like a place where you can rebuild your life step by step, with the right balance of guidance and independence.”",
   },
   {
     name: "Thomas Wilson",
     image: "/assets/svgs/testimonial2.svg",
     designation: "Resident",
     review:
-      "“From the moment I arrived at KDC Serenity Home, I felt a sense of peace that I hadn’t experienced in a long time. Starting over can be overwhelming, but the environment here made the transition feel natural and safe. The home is calm, clean, and thoughtfully maintained, which helped me settle in quickly and focus on what really matters—my recovery.”",
+      "“From the moment I arrived at KDARHope Serenity Home, I felt a sense of peace that I hadn’t experienced in a long time. Starting over can be overwhelming, but the environment here made the transition feel natural and safe. The home is calm, clean, and thoughtfully maintained, which helped me settle in quickly and focus on what really matters—my recovery.”",
   },
 ];
 
@@ -965,7 +965,7 @@ export const structureandexpectation = [
 export const ourBlogs = [
   {
     image: "/assets/svgs/ourblog1.svg",
-    title: "Your First Week in KDC Living: What to Expect",
+    title: "Your First Week in KDARHope Living: What to Expect",
     desc: "A slower pace. A little structure. A chance to land. The first week in sober living can feel like a [...]",
     authorImage: "/assets/svgs/ourblogauthor1.svg",
     name: "Olivia Rhye",
@@ -973,16 +973,16 @@ export const ourBlogs = [
   },
   {
     image: "/assets/svgs/ourblog2.svg",
-    title: "What It’s Like to Live at a KDC Serenity home",
-    desc: "A quiet rhythm. A clean start. A real chance. When you first walk into a KDC house, it doesn’t [...]",
+    title: "What It’s Like to Live at a KDARHope Serenity home",
+    desc: "A quiet rhythm. A clean start. A real chance. When you first walk into a KDARHope house, it doesn’t [...]",
     authorImage: "/assets/svgs/ourblogauthor2.svg",
     name: "Henry Alexander",
     date: "20 Jan 2022",
   },
   {
     image: "/assets/svgs/ourblog3.svg",
-    title: "What Makes a Good KDC Living Home?",
-    desc: "From someone who’s lived it, and now helps build it. Fifteen years ago, I got KDC — and the right [...]",
+    title: "What Makes a Good KDARHope Living Home?",
+    desc: "From someone who’s lived it, and now helps build it. Fifteen years ago, I got KDARHope — and the right [...]",
     authorImage: "/assets/svgs/ourblogauthor3.svg",
     name: "Edward James",
     date: "20 Jan 2022",

@@ -24,7 +24,7 @@ const OurApproachSection = () => {
           <div className="bg-white rounded-2xl p-5 sm:p-6 md:p-8 lg:p-10">
             {/* Top Tag */}
             <div className="text-center lg:text-left mb-4 sm:mb-5">
-              <span className="border-2 border-[#5a4a3a] text-[#5a4a3a] px-4 py-1.5 sm:px-5 sm:py-2 rounded-full text-xs sm:text-sm font-medium">
+              <span className="border-2 border-[#5a4a3a] text-[#81501e] px-4 py-1.5 sm:px-5 sm:py-2 rounded-full text-xs sm:text-sm font-medium">
                 OUR APPROACH
               </span>
             </div>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PageHeader from '../../components/HeaderBg';
-import PrivacyImg from '../../assets/privacy-policy.png'; 
+import PrivacyImg from '../../assets/privacy-policy.svg'; 
 import { FaArrowRight, FaCheckCircle } from 'react-icons/fa'; 
 import { IoShieldOutline } from 'react-icons/io5';
 import { VscLock } from 'react-icons/vsc';
@@ -104,7 +104,7 @@ const PrivacyPolicy = () => {
       <PageHeader 
         label="Privacy Policy"
         title="Your Privacy is Our Priority"
-        description="This Privacy Policy explains how KDC Serenity Home LLC collects, uses, protects, and shares personal information in connection with our services and website."
+        description="This Privacy Policy explains how KDARHope Serenity Home LLC collects, uses, protects, and shares personal information in connection with our services and website."
         lastUpdated="Last updated: August 1, 2025"
         backgroundImage={PrivacyImg}
       />
@@ -178,7 +178,7 @@ const PrivacyPolicy = () => {
                 {accepted && <span className="text-white text-[10px]">✓</span>}
               </div>
               <label className="ml-3 text-sm sm:text-[15px] text-[#555] cursor-pointer">
-                I confirm that I have read and accept the <span className="text-[#A4632B] font-bold border-b border-[#A4632B]">Privacy And Policy.</span>
+                I confirm that I have read and accept the <span className="text-[#A4632B] font-bold border-b border-[#A4632B]">Privacy Policy.</span>
               </label>
             </div>
             

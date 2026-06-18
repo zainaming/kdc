@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PageHeader from '../../components/HeaderBg';
-import TermAndCondtionimg from '../../assets/termcondition.png';
+import TermAndCondtionimg from '../../assets/termcondition.svg';
 import { FaArrowRight } from 'react-icons/fa6';
 import { useNavigate } from 'react-router-dom';
 
@@ -17,9 +17,9 @@ const TermsAndConditions = () => {
 
   const sections = [
     { title: "Acceptance of Terms", content: "By accessing our website or using our services, you agree to be bound by these Terms and Conditions. If you do not agree, you should not use our website or services." },
-    { title: "About KDC Serenity Home LLC", content: "KDC Serenity Home LLC provides residential and support services in accordance with applicable licensing requirements, regulations, and person-centered care standards." },
+    { title: "About KDARHope Serenity Home LLC", content: "KDARHope Serenity Home LLC provides residential and support services in accordance with applicable licensing requirements, regulations, and person-centered care standards." },
     { title: "Scope of Services", content: "Services are delivered based on individual eligibility, authorization, intake assessment, and a documented person-centered plan. Services do not begin until all required approvals are confirmed." },
-    { title: "Eligibility & Authorization", content: "Access to services is subject to eligibility determination, funding authorization, and completion of required assessments. Authorization decisions are made by appropriate funding or regulatory entities, not solely by KDC Serenity Home LLC." },
+    { title: "Eligibility & Authorization", content: "Access to services is subject to eligibility determination, funding authorization, and completion of required assessments. Authorization decisions are made by appropriate funding or regulatory entities, not solely by KDARHope Serenity Home LLC." },
     { title: "User Responsibilities", type: "list", content: [
         "Provide accurate and complete information", 
         "Respect staff, residents, and property", 

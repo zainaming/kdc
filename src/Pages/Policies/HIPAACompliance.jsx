@@ -1,6 +1,6 @@
 import React from 'react';
 import PageHeader from '../../components/HeaderBg';
-import HIPAAImg from '../../assets/hipaa-compliance.png'; 
+import HIPAAImg from '../../assets/hipaa-compliance.svg'; 
 import { IoShieldCheckmarkOutline, IoFingerPrintOutline, IoDocumentTextOutline, IoCloudUploadOutline, IoPeopleOutline } from 'react-icons/io5';
 import { VscLock, VscCheckAll } from 'react-icons/vsc';
 import { LuCircleCheckBig } from "react-icons/lu";

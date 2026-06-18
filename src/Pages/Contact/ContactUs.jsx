@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import PageHeader from '../../components/HeaderBg';
-import ContactImg from '../../assets/contactus.png'; 
+import ContactImg from '../../assets/contactus.svg'; 
 import { FaPhoneAlt, FaEnvelope, FaClock, FaMapMarkerAlt } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa6';
 import { IoIosArrowDown } from "react-icons/io";
@@ -75,12 +75,13 @@ const ContactUs = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8 mb-16 md:mb-24">
           {[
             { icon: <FaPhoneAlt />, title: "Phone", detail: "321-609-7588" },
-            { icon: <FaEnvelope />, title: "Email", detail: "kdcserenityhome@gmail.com" },
+            { icon: <FaEnvelope />, title: "Email", detail: "kdarhopeserenityhome@gmail.com" },
             { 
               icon: <FaClock />, 
               title: "24/7 Coverage", 
               detail: "Urgent calls: response within 15 minutes",
-              sub: "Non-urgent calls: response within 60 minutes"
+              sub: "Non-urgent calls: response within 60 minutes",
+              des: "Missed calls will be returned within 15 minutes to 24 hours"
             },
             { icon: <FaMapMarkerAlt />, title: "Address", detail: "NE Palm Bay Area 32907" }
           ].map((item, idx) => (
@@ -91,6 +92,7 @@ const ContactUs = () => {
               <h3 className="text-base sm:text-lg font-bold text-[#1A1A1A] mb-1">{item.title}</h3>
               <p className="text-gray-600 text-xs sm:text-sm font-medium px-2">{item.detail}</p>
               {item.sub && <p className="text-[9px] sm:text-[10px] font-extrabold mt-1 sm:mt-2 tracking-widest opacity-80 uppercase px-2">{item.sub}</p>}
+              <p className='text-[9px] sm:text-[10px] font-extrabold mt-1 sm:mt-2 tracking-widest opacity-80 uppercase px-2'>{item.des}</p>
             </div>
           ))}
         </div>
