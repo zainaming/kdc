@@ -38,8 +38,8 @@ const cards = [
 
 const QualitySection = () => {
   return (
-    <section className="bg-[#fbf2e6] py-8 md:py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="">
+      <div className=" bg-[#fbf2e6] max-w-[1600px] mx-auto px-6 py-6 sm:px-6 lg:px-8">
         
         {/* TOP SECTION */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 mb-8 md:mb-10 items-center">

@@ -42,7 +42,7 @@ const steps = [
 const StepsSection = () => {
   return (
     <section className="bg-white py-16 md:py-24">
-      <div className="max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Tag */}
         <div className="flex justify-center mb-6">
           <span className="border border-gray-300 text-gray-500 px-5 py-1.5 rounded-full text-[10px] md:text-xs font-bold uppercase tracking-widest bg-white">

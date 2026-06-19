@@ -78,10 +78,10 @@ const ContactUs = () => {
             { icon: <FaEnvelope />, title: "Email", detail: "KDCserenityhome@gmail.com" },
             { 
               icon: <FaClock />, 
-              title: "24/7 Coverage", 
+              title: "", 
               detail: "Urgent calls: response within 15 minutes",
               sub: "Non-urgent calls: response within 60 minutes",
-              des: "Missed calls will be returned within 15 minutes to 24 hours"
+              des: "Put: Missed calls will be returned within 15 minutes to 24 hours"
             },
             { icon: <FaMapMarkerAlt />, title: "Address", detail: "NE Palm Bay Area 32907" }
           ].map((item, idx) => (

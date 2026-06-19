@@ -1,37 +1,36 @@
 // src/components/HowItWorksSection.jsx
 import React from 'react';
-import works from '../../assets/Hworks.png';
+import works from '../../assets/HWorkss1.png';
 
 const HowItWorksSection = () => {
   // Steps data for mapping
   const steps = [
     {
       number: "01",
-      title: "Referral or Inquiry",
-      description: "Families, support coordinators, or individuals reach out."
+      title: "Initial Contact",
+      description: "Reach out to discuss your needs and questions.",
     },
     {
       number: "02",
-      title: "Eligibility & Authorization Review",
-      description: "Services begin only after required approvals are confirmed."
+      title: "Eligibility & Authorization",
+      description: "We confirm eligibility, funding, and required approvals.",
     },
     {
       number: "03",
-      title: "Intake & Assessment",
-      description: "Needs, goals, and preferences are reviewed."
+      title: "Intake Assessment",
+      description: "We assess goals, preferences, and potential risks.",
     },
     {
       number: "04",
       title: "Person-Centered Plan",
-      description: "Supports are tailored to the individual."
+      description: "A tailored plan reflecting personal goals and choices.",
     },
     {
       number: "05",
-      title: "Ongoing Support & Monitoring",
-      description: "Regular reviews, communication, and quality checks."
-    }
+      title: "Ongoing Support & Review",
+      description: "Support with regular monitoring and quality checks.",
+    },
   ];
-
   return (
     <section className="bg-white py-10 sm:py-6 md:py-8 lg:py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

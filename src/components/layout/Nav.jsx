@@ -77,8 +77,9 @@ function Navbar() {
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about-us" },
     { name: "How its Works", path: "/how-its-works" },
-    { name: "Residences", path: "/residences" },
     { name: "Services", path: "/services" },
+    { name: "Residences", path: "/residences" },
+    
     { name: "Blogs", path: "/blogs" },
     { name: "Contact Us", path: "/contact-us" },
   ];
@@ -90,7 +91,7 @@ function Navbar() {
 
   return (
     <nav className="bg-white fixed top-0 left-0 w-full z-50 shadow-sm">
-      <div className="xs:max-w-8xl mx-auto px-4 sm:px-6 md:px-8 flex items-center gap-5 justify-around h-16 md:h-20 lg:h-24">
+      <div className="max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 flex items-center gap-5 justify-around h-16 md:h-20 lg:h-24">
         <Link
           to="/"
           className="flex items-center space-x-2"

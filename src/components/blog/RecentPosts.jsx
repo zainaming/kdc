@@ -11,7 +11,7 @@ const RecentPosts = () => {
       <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-8 md:mb-12">Our Recent Posts</h2>
       
       {/* Side-by-Side Post */}
-      <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center mb-12 md:mb-20">
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center mb-12 md:mb-0">
         <div className="w-full lg:w-3/5">
           <div className="rounded-2xl overflow-hidden shadow-sm h-[250px] sm:h-[350px] md:h-[400px]">
             <img src={mainRecent.image} className="w-full h-full object-cover" alt="Recent" />
@@ -34,7 +34,7 @@ const RecentPosts = () => {
       </div>
 
       {/* Grid Section */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-6">
+      {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-6">
         {gridRecent.map((post) => (
           <div key={post.id} className="group flex flex-col">
             <div className="rounded-lg overflow-hidden h-56 sm:h-64 mb-4 shadow-sm">
@@ -56,7 +56,7 @@ const RecentPosts = () => {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
     </section>
   );
 };

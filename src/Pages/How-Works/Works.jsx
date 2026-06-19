@@ -13,7 +13,7 @@ const Works = () => {
     
     <StepsSection />
     <CommitmentSection />
-    <TestimonialsSection />
+    {/* <TestimonialsSection /> */}
     <ReadySection />
   </>
   )

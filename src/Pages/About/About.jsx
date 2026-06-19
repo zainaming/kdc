@@ -12,11 +12,11 @@ const About = () => {
     <>
       <PageHeader label='About Us' title="The Heart of KDC Serenity Home" backgroundImage={about} description='KDC Serenity Home LLC provides residential and support services rooted in dignity, safety, and person-centered care.'  />
       <SupportingLivesSection />
+      <FeedBackSection />
       <OurTeam />
       <CommitmentSection />
-      <FeedBackSection />
       <ReadySection />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       
     </>
   )

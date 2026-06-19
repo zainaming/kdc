@@ -15,7 +15,7 @@ const Service = () => {
       <OurApproachSection />
       <EligibilitySection />
          <ReadySection />
-        <TestimonialsSection />
+        {/* <TestimonialsSection /> */}
      
     </>
   )

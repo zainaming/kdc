@@ -19,16 +19,14 @@ const Homeimg = () => {
           {/* Subheading with highlighted text */}
           <div className="space-y-4 pt-4 md:pt-8 max-w-lg">
             <Typography className="text-[#2D2621] text-lg md:text-xl font-bold leading-snug">
-              KDC Serenity Home is a Place to{" "}
-              <span className="text-[#8B9386]">Heal, Grow, and Thrive.</span>{" "}
-              Your Path to Recovery Starts Here.
+              Nurse-Owned Residential Support Home for 
+              <span className="text-[#8B9386]"> Adults with Intellectual</span>{" "}
+              and Developmental Disabilities
             </Typography>
 
             {/* Muted paragraph text */}
             <Typography className="text-[#6B5E55] text-sm md:text-base leading-relaxed font-normal">
-              KDC Serenity offers safe, supportive, and fully furnished sober
-              living homes designed to help individuals transition from
-              treatment to independent living.
+            A nurse-owned residential support home providing dedicated care for adults with intellectual and developmental disabilities.A nurse-owned residential support home providing dedicated care for adults with intellectual and developmental disabilities.
             </Typography>
           </div>
 
@@ -45,7 +43,9 @@ const Homeimg = () => {
               }
               className="bg-[#94592B] hover:bg-[#7d4a23] text-white font-medium px-6 py-2.5 rounded-full flex items-center gap-2 transition-all duration-200 text-xs md:text-sm shadow-sm"
             >
-              Apply for Residency
+             
+              {/* Apply for Residency */}
+              Get Started
               {/* Thin white arrow right */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -80,9 +80,9 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#fbf2e6] pt-6 md:pt-8 pb-4 md:pb-6">
+    <footer className=" pt-6 md:pt-8 pb-4 md:pb-6">
       {/* 1. Newsletter Section - Centered with Side Spacing */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-10">
+      <div className="bg-[#fbf2e6] max-w-[1600pxs] mx-auto px-4 sm:px-6 md:px-8 lg:px-10">
         <div className="bg-[#a4632b] py-8 md:py-10 px-4 sm:px-6 md:px-8 rounded-2xl sm:rounded-3xl flex flex-col items-center shadow-lg relative overflow-hidden">
           {/* Decorative Corner Shapes (Like in SS) */}
           <div className="absolute top-0 right-0 p-3 md:p-4 opacity-20 rotate-180">
@@ -245,7 +245,7 @@ const Footer = () => {
         {/* 3. Footer Bottom Line */}
         <div className="mt-8 md:mt-10 pt-6 md:pt-8 border-t border-[#E9DCCB] text-center">
           <p className="text-gray-500 text-[12px] sm:text-[13px] font-medium tracking-wide px-4">
-            © 2026 KDAR Serenity Home LLC. All Rights Reserved.
+            © 2026 KDC Serenity Home LLC. All Rights Reserved.
           </p>
         </div>
       </div>
