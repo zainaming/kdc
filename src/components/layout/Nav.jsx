@@ -100,7 +100,7 @@ function Navbar() {
           <img
             src={logo}
             alt="KDC Serenity Home Logo"
-            // style={{ width: "55px", height: "55px" }}
+            style={{ width: "68px", height: "60px" }}
             className=" object-cover"
           />
         </Link>

@@ -34,7 +34,7 @@ const TermsAndConditions = () => {
       ] 
     },
     { title: "Consent & Communication", content: "Information may be shared only with proper consent or when required by law. Individuals or their authorized representatives may revoke consent in accordance with applicable procedures." },
-    { title: "AI Medical Scribe Disclaimer", type: "card", label: "Important Notice", content: "Our AI Medical Scribe is a documentation tool only. It does not provide medical advice, diagnosis, or treatment. Healthcare providers must review and verify all AI-generated content before using it in patient care. We are not responsible for medical decisions made based on AI suggestions." },
+    { title: "AI Medical Scribe Disclaimer", type: "card", label: "Non-Treatment Disclosure", content: "Our AI Medical Scribe is a documentation tool only. It does not provide medical advice, diagnosis, or treatment. Healthcare providers must review and verify all AI-generated content before using it in patient care. We are not responsible for medical decisions made based on AI suggestions." },
     { title: "Service Modifications or Termination", content: "Services may be modified, suspended, or terminated in accordance with regulatory requirements, safety concerns, authorization changes, or contractual obligations. Notice will be provided when required." }
   ];
 
