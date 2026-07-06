@@ -44,7 +44,7 @@ const CommitmentSection = () => {
             Trust & Compliance Band
           </span>
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#2a241f] mb-3 sm:mb-4 leading-tight">
-            Our Commitment to Trust & Compliance
+            Our Commitment To Trust & Compliance
           </h2>
           <p className="text-gray-500   mx-auto  leading-relaxed">
             We operate with integrity, transparency, and full regulatory compliance in every aspect of our services.

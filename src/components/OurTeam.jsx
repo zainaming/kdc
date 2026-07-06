@@ -10,14 +10,14 @@ import team3 from '../assets/teamM2.jpg'
 const teamMembers = [
   {
     name: "Dr. Claudia Porter-Lawrence, DNP, PMHNP-BC",
-    role: "Owner/Administrator/ Direct Care Staff (DCS)",
+    role: "Owner/Administrator/ Direct Care Staff (DCP)",
     desc: "Our care coordinators plan and manage daily support tailored to each individual.",
   
       image: team2,
   },
   {
     name: "Keisha Nathan",
-    role: "Administrator/ Direct Care Staff (DCS)",
+    role: "Administrator/ Direct Care Staff (DCP)",
     desc: "Skilled support workers assist with daily living activities, mobility, and skill-building.",
     image: team3,
   },

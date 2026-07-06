@@ -61,8 +61,8 @@ const OurBenefits = () => {
   }
 ];
  return (
-  <section className="bg-[#FAF4EB] max-w-[1600px] mx-auto">
-    <div className="flex flex-col gap-16 py-14 sm:py-14 lg:py-18 px-14 sm:px-14 lg:px-18">
+  <section className="bg-[#FAF4EB] py-12 px-6 md:px-8 lg:px-16">
+    <div className="max-w-7xl mx-auto flex flex-col gap-16">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-3">
@@ -71,8 +71,8 @@ const OurBenefits = () => {
               What We Provide
             </span>
           </div>
-          <h2 className="text-4xl md:text-4xl font-serif text-[#2C2623] leading-tight max-w-xl">
-            A supportive home for Adults with Intellectual and Developmental Disabilities.
+          <h2 className="text-4xl md:text-5xl font-serif text-[#2C2623] leading-tight max-w-xl">
+            A Structured Recovery Living Environment
           </h2>
         </div>
 

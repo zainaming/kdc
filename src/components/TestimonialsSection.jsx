@@ -9,37 +9,37 @@ const testimonials = [
   {
     name: "Sarah M",
     location: "Florida",
-    quote: "“The team has been incredible in supporting my son's daily routine and helping him develop new skills. Their person-centered approach makes all the difference, and I always feel informed and respected. From our very first meeting, they took the time to understand his unique needs and goals, and every staff member is patient, kind, and genuinely invested in his progress.”",
+    quote: "“The team has been incredible in supporting my son's daily routine and helping him develop new skills. Their person-centered approach makes all the difference, and I always feel informed and respected.”",
     image: testi1,
   },
   {
     name: "Michael R",
     location: "Austin, TX",
-    quote: "“We are so grateful for the compassionate care and attention to detail. The support workers truly understand our daughter's needs and make every day better. They communicate with us regularly, celebrate her small wins, and treat her with the dignity and respect every family hopes for when choosing a care provider.”",
+    quote: "“We are so grateful for the compassionate care and attention to detail. The support workers truly understand our daughter's needs and make every day better.”",
     image: testi,
   },
   {
     name: "Emily T",
     location: "New York, NY",
-    quote: "“The coordinators are exceptional at creating personalized plans. Our family feels heard, supported, and confident in the care provided. They check in often, adjust the plan whenever our needs change, and have built a genuine relationship with us that goes far beyond just providing a service.”",
+    quote: "“The coordinators are exceptional at creating personalized plans. Our family feels heard, supported, and confident in the care provided.”",
     image: testi3,
   },
   {
     name: "David K",
     location: "Seattle, WA",
-    quote: "“The support we received was life-changing. Every team member showed genuine care and dedication to our family's needs. They went above and beyond to make sure our routines were respected, our concerns were addressed quickly, and our loved one always felt safe, valued, and understood.”",
+    quote: "“The support we received was life-changing. Every team member showed genuine care and dedication to our family's needs.”",
     image: testi1,
   },
   {
     name: "Jennifer L",
     location: "Boston, MA",
-    quote: "“I appreciate how they listen to our concerns and adapt quickly. The communication is always clear and compassionate. Whenever a challenge comes up, the team responds with patience and practical solutions, and it's clear that they genuinely care about the wellbeing of everyone in our family.”",
+    quote: "“I appreciate how they listen to our concerns and adapt quickly. The communication is always clear and compassionate.”",
     image: testi,
   },
   {
     name: "Robert P",
     location: "Denver, CO",
-    quote: "“Their commitment to quality care shines through in every interaction. We couldn't be happier with the support we've received. The staff are reliable, attentive, and always willing to go the extra mile, and it has given our entire family real peace of mind every single day.”",
+    quote: "“Their commitment to quality care shines through in every interaction. We couldn't be happier with the support we've received.”",
     image: testi3,
   },
 ];
@@ -58,11 +58,11 @@ const TestimonialsSection = () => {
   const current = testimonials[currentIndex];
 
   return (
-    <section className="bg-white py-8 md:py-12 lg:py-16">
+    <section className="bg-white py-8 md:py-8 lg:py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* PARENT GRID - 2 COLUMNS ON MD/LG, 1 COLUMN ON SM */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 md:gap-12 items-start ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 md:gap-12 items-start">
           
           {/* COLUMN 1: TEXT CONTENT */}
           <div className="space-y-6">
@@ -99,7 +99,7 @@ const TestimonialsSection = () => {
           <div className="space-y-8">
             
             {/* TESTIMONIAL GRID - IMAGE + CONTENT SIDE BY SIDE */}
-            {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-6"> */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 ">
               
               {/* IMAGE CARD */}
               {/* <div className="relative rounded-2xl overflow-hidden shadow-xl ">
@@ -111,17 +111,17 @@ const TestimonialsSection = () => {
               </div> */}
               
               {/* CONTENT CARD */}
-              <div className="bg-[#fbf2e6] rounded-2xl p-6 flex flex-col justify-center">
-                <div className="text-gray-800 text-base md:text-lg italic leading-relaxed mb-6  pl-4 py-1">
+              <div className="bg-[#fbf2e6] rounded-2xl p-6 flex flex-col justify-center w-full md:w-[580px] ">
+                <div className="text-gray-800 text-base md:text-lg italic leading-relaxed mb-6 pl-4 py-1">
                   {current.quote}
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900">{current.name}</h3>
-                  {/* <p className="text-gray-600">{current.location}</p> */}
+                  <p className="text-gray-600">{current.location}</p>
                 </div>
               </div>
               
-            {/* </div> */}
+            </div>
 
             {/* ARROWS BELOW TESTIMONIAL */}
            

@@ -9,17 +9,17 @@ import { RiShieldKeyholeLine } from "react-icons/ri";
 const Hero = () => {
   return (
     <section className="">
-      <div className="max-w-[1600px] mx-auto bg-[#fbf2e6] md:mt-0 mt-6 px-4 sm:px-6 lg:px-8 py-14 sm:py-20 md:py-28 lg:py-32">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center">
+      <div className=" bg-[#fbf2e6] max-w-[1600px] mx-auto md:mt-1 mt-6 px-4 sm:px-6 lg:px-8  md:pt-20 pt-0 lg:pt-24 pb-8 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 items-center">
           {/* Left Content */}
-          <div className="space-y-5 sm:space-y-6 md:space-y-8 order-2 lg:order-1">
+          <div className="space-y-5 sm:space-y-5 md:space-y-5 order-2 lg:order-1 md:mt-4">
             {/* Small tag */}
             <div className="inline-block text-xs sm:text-sm px-3 sm:px-4 py-1.5 sm:py-2 bg-[#A4632B]/30 text-[#8b6f47] rounded-full font-medium">
               Person-Centered Residential Support
             </div>
 
             {/* Main Heading - Responsive font sizes */}
-            <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#2a241f]">
+            <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-[#2a241f]">
               A Safe Home. A <br className="hidden sm:block" />
               <span className="text-[#A4632B]">Supportive</span> Community. A
               Better <br className="hidden sm:block" />
@@ -62,7 +62,7 @@ const Hero = () => {
 
           {/* Right Image Section - Fixed for mobile */}
           <div className="relative order-1 lg:order-2 ">
-            <div className="overflow-hidden h-[300px] sm:h-[300px] md:h-[400px] lg:h-[500px]">
+            <div className="overflow-hidden h-[250px] sm:h-[300px] md:h-[300px] lg:h-[450px] mt-0 md:mt-4">
               <img
                 src={hero}
                 alt="Caregiver assisting senior woman in wheelchair"

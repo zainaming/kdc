@@ -12,8 +12,8 @@ const Works = () => {
       <PageHeader label='How It Works' title="How We Support You" backgroundImage={works} description='Our process is designed to be clear, supportive, and respectful—guiding you from first contact to ongoing care.'  />
     
     <StepsSection />
-    {/* <CommitmentSection /> */}
-    {/* <TestimonialsSection /> */}
+    <CommitmentSection />
+    <TestimonialsSection />
     <ReadySection />
   </>
   )

@@ -1,36 +1,37 @@
 // src/components/HowItWorksSection.jsx
 import React from 'react';
-import works from '../../assets/HWorkss1.png';
+import works from '../../assets/Hworks.png';
 
 const HowItWorksSection = () => {
   // Steps data for mapping
   const steps = [
     {
       number: "01",
-      title: "Initial Contact",
-      description: "Reach out to discuss your needs and questions.",
+      title: "Referral or Inquiry",
+      description: "Families, support coordinators, or individuals reach out."
     },
     {
       number: "02",
-      title: "Eligibility & Authorization",
-      description: "We confirm eligibility, funding, and required approvals.",
+      title: "Eligibility & Authorization Review",
+      description: "Services begin only after required approvals are confirmed."
     },
     {
       number: "03",
-      title: "Intake Assessment",
-      description: "We assess goals, preferences, and potential risks.",
+      title: "Intake & Assessment",
+      description: "Needs, goals, and preferences are reviewed."
     },
     {
       number: "04",
       title: "Person-Centered Plan",
-      description: "A tailored plan reflecting personal goals and choices.",
+      description: "Supports are tailored to the individual."
     },
     {
       number: "05",
-      title: "Ongoing Support & Review",
-      description: "Support with regular monitoring and quality checks.",
-    },
+      title: "Ongoing Support & Monitoring",
+      description: "Regular reviews, communication, and quality checks."
+    }
   ];
+
   return (
     <section className="bg-white py-10 sm:py-6 md:py-8 lg:py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -48,7 +49,7 @@ const HowItWorksSection = () => {
           </div>
 
           {/* Right: Content Box - Responsive */}
-          <div className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10 lg:p-12 relative">
+          <div className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-8 lg:p-8 relative">
             {/* How It Works Button */}
             <button className='px-4 sm:px-6 py-2 sm:py-3 border-2 border-[#2a241f] text-[#2a241f] rounded-full text-sm sm:text-base font-semibold mb-4 sm:mb-5'>
               How It Works

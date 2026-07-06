@@ -37,8 +37,8 @@ const services = [
 
 const ResidentialServicesSection = () => {
   return (
-    <section className="py-12 md:py-12">
-      <div className=" bg-[#fbf2e6] max-w-[1600px] mx-auto px-6 sm:px-6 lg:px-8 py-10 sm:py-10 lg:py-12">
+    <section className="bg-[#fbf2e6] py-12 md:py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header Section */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-12 items-start">
@@ -46,12 +46,12 @@ const ResidentialServicesSection = () => {
              <div className='px-5 py-1.5 border border-[#2a241f] text-[#2a241f] inline-block rounded-full mb-6 font-medium text-sm'>
                 Our Services
              </div>
-             <h2 className="text-4xl md:text-4xl font-bold text-[#2a241f] leading-tight mb-6">
-               Our Services is<br className="hidden md:block"/>supports adults with intellectual disabilities.
+             <h2 className="text-4xl md:text-5xl font-bold text-[#2a241f] leading-tight mb-6">
+               Our Services is  <br className="hidden md:block"/> For Sober Home
              </h2>
              
              <div className="flex flex-col items-start">
-                {/* <FaArrowTurnDown className="text-4xl text-[#a4632b] mb-4 ml-24" /> */}
+                <FaArrowTurnDown className="text-4xl text-[#a4632b] mb-4 ml-24" />
                 <p className="text-gray-600 text-sm md:text-base max-w-xs leading-relaxed">
                   All services are delivered according to assessed needs and documented person-centered plans.
                 </p>

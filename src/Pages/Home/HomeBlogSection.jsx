@@ -8,7 +8,7 @@ const HomeBlogSection = () => {
   const featuredBlogs = blogData.slice(0, 3);
 
   return (
-    <section className="bg-white py-8 sm:py-8 md:py-12">
+    <section className="bg-white py-8 sm:py-8 md:py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Top Tag & Header */}

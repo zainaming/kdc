@@ -59,7 +59,7 @@ const StepsSection = () => {
           </h2>
         </div>
 
-       <div className="py-8 px-4 sm:px-8 gap-12 md:gap-16 flex flex-col max-w-7xl mx-auto">
+       <div className="py-2 px-4 sm:px-8 gap-12 md:gap-0 flex flex-col max-w-7xl mx-auto">
 
   {/* Step 1 */}
   <div className="w-full flex flex-col md:flex-row items-center gap-8 md:gap-16 py-6 md:py-12 px-4 md:px-16">
