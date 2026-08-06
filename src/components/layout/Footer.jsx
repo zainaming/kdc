@@ -245,7 +245,7 @@ const Footer = () => {
         {/* 3. Footer Bottom Line */}
         <div className="mt-8 md:mt-10 pt-6 md:pt-8 border-t border-[#E9DCCB] text-center">
           <p className="text-gray-500 text-[12px] sm:text-[13px] font-medium tracking-wide px-4">
-            © 2026 KDAR Serenity Home LLC. All Rights Reserved.
+            © 2026 KDC Serenity Home LLC. All Rights Reserved.
           </p>
         </div>
       </div>
