@@ -33,11 +33,11 @@ const HowItWorksSection = () => {
   ];
 
   return (
-    <section className="bg-white py-10 sm:py-6 md:py-8 lg:py-10">
+    <section className="max-w-7xl mx-auto bg-white py-10 sm:py-6 md:py-8 lg:py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 items-center">
-          
+
           {/* Left: Image - Original Heights */}
           <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
             <img
@@ -54,7 +54,7 @@ const HowItWorksSection = () => {
             <button className='px-4 sm:px-6 py-2 sm:py-3 border-2 border-[#2a241f] text-[#2a241f] rounded-full text-sm sm:text-base font-semibold mb-4 sm:mb-5'>
               How It Works
             </button>
-            
+
             {/* Heading - Responsive Font Sizes */}
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#2a241f] mb-5 sm:mb-6 leading-tight">
               How We Make It Happen
