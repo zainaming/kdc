@@ -80,7 +80,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#fbf2e6] pt-6 md:pt-8 pb-4 md:pb-6">
+    <footer className="max-w-7xl mx-auto bg-[#fbf2e6] pt-6 md:pt-8 pb-4 md:pb-6">
       {/* 1. Newsletter Section - Centered with Side Spacing */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-10">
         <div className="bg-[#a4632b] py-8 md:py-10 px-4 sm:px-6 md:px-8 rounded-2xl sm:rounded-3xl flex flex-col items-center shadow-lg relative overflow-hidden">
@@ -120,7 +120,7 @@ const Footer = () => {
       {/* 2. Main Footer Content - Alignment Fixed */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-10 mt-8 md:mt-10">
         <div className="flex flex-col md:flex-row justify-between items-start gap-8 md:gap-0">
-          
+
           {/* Left Side: Logo and Tagline */}
           <div className="flex flex-col items-start max-w-[250px] sm:max-w-[300px]">
             <img src={logo} alt="KDC Logo" className="w-24 sm:w-28 md:w-32 h-auto" />
@@ -132,86 +132,79 @@ const Footer = () => {
           {/* Right Side: Quick Links & Social Icons */}
           <div className="flex flex-col mt-6 md:mt-0">
             <h4 className="text-[#1A1A1A] font-bold text-base md:text-lg mb-3 md:mb-2">Quick Links</h4>
-            
+
             <ul className="flex flex-wrap gap-x-4 sm:gap-x-6 gap-y-2 text-gray-700 font-semibold text-[13px] sm:text-[14px] mb-4 md:mb-6">
               {quickLinks.map((link) => (
                 <li key={link.path}>
-                  <Link 
-                    to={link.path} 
-                    className={`relative group transition ${
-                      isActive(link.path) ? 'text-[#a4632b]' : ''
-                    }`}
+                  <Link
+                    to={link.path}
+                    className={`relative group transition ${isActive(link.path) ? 'text-[#a4632b]' : ''
+                      }`}
                     onClick={handlePolicyClick}
                   >
                     {link.name}
-                    <span className={`absolute left-0 -bottom-1 w-0 h-0.5 bg-[#a4632b] transition-all duration-300 ${
-                      isActive(link.path) ? 'w-full' : 'group-hover:w-full'
-                    }`}></span>
+                    <span className={`absolute left-0 -bottom-1 w-0 h-0.5 bg-[#a4632b] transition-all duration-300 ${isActive(link.path) ? 'w-full' : 'group-hover:w-full'
+                      }`}></span>
                   </Link>
                 </li>
               ))}
-              
+
               {/* Policies Dropdown - Clean & Modern */}
               <li className="relative policies-dropdown">
-                <button 
+                <button
                   onClick={() => setShowPolicies(!showPolicies)}
-                  className={`hover:text-[#a4632b] flex items-center gap-1 outline-none transition ${
-                    location.pathname.includes('policy') || 
-                    location.pathname.includes('terms') || 
-                    location.pathname.includes('hipaa') 
-                      ? 'text-[#a4632b]' 
-                      : ''
-                  }`}
+                  className={`hover:text-[#a4632b] flex items-center gap-1 outline-none transition ${location.pathname.includes('policy') ||
+                    location.pathname.includes('terms') ||
+                    location.pathname.includes('hipaa')
+                    ? 'text-[#a4632b]'
+                    : ''
+                    }`}
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
                 >
-                  Policies 
-                  <FaChevronDown className={`text-[10px] ml-1 transition-transform duration-300 ${
-                    showPolicies ? 'rotate-180' : ''
-                  }`} />
+                  Policies
+                  <FaChevronDown className={`text-[10px] ml-1 transition-transform duration-300 ${showPolicies ? 'rotate-180' : ''
+                    }`} />
                 </button>
-                
+
                 {showPolicies && (
-                  <div 
+                  <div
                     className="absolute right-0 bottom-full mb-3 md:mb-4 w-48 sm:w-56 bg-white rounded-xl sm:rounded-2xl shadow-2xl border border-gray-100 py-2 z-50 animate-in fade-in slide-in-from-bottom-2 duration-200"
                     onMouseEnter={handleDropdownEnter}
                     onMouseLeave={handleDropdownLeave}
                   >
                     <div className="absolute -bottom-2 right-5 md:right-6 w-3 h-3 md:w-4 md:h-4 bg-white rotate-45 border-r border-b border-gray-100"></div>
-                    
-                    <Link 
-                      to="/privacy-policy" 
-                      className={`flex items-center gap-2 sm:gap-3 px-4 sm:px-5 py-2.5 sm:py-3 text-xs sm:text-sm font-medium rounded-lg transition-colors ${
-                        isActive('/privacy-policy') 
-                          ? 'bg-[#fbf2e6] text-[#a4632b]' 
-                          : 'text-gray-700 hover:bg-[#fbf2e6] hover:text-[#a4632b]'
-                      }`}
+
+                    <Link
+                      to="/privacy-policy"
+                      className={`flex items-center gap-2 sm:gap-3 px-4 sm:px-5 py-2.5 sm:py-3 text-xs sm:text-sm font-medium rounded-lg transition-colors ${isActive('/privacy-policy')
+                        ? 'bg-[#fbf2e6] text-[#a4632b]'
+                        : 'text-gray-700 hover:bg-[#fbf2e6] hover:text-[#a4632b]'
+                        }`}
                       onClick={handlePolicyClick}
                     >
                       <FiLock className="text-[#a4632b] text-base sm:text-lg" />
                       Privacy Policy
                     </Link>
-                    
-                    <Link 
-                      to="/terms-conditions" 
-                      className={`flex items-center gap-2 sm:gap-3 px-4 sm:px-5 py-2.5 sm:py-3 text-xs sm:text-sm font-medium rounded-lg transition-colors ${
-                        isActive('/terms-conditions') 
-                          ? 'bg-[#fbf2e6] text-[#a4632b]' 
-                          : 'text-gray-700 hover:bg-[#fbf2e6] hover:text-[#a4632b]'
-                      }`}
+
+                    <Link
+                      to="/terms-conditions"
+                      className={`flex items-center gap-2 sm:gap-3 px-4 sm:px-5 py-2.5 sm:py-3 text-xs sm:text-sm font-medium rounded-lg transition-colors ${isActive('/terms-conditions')
+                        ? 'bg-[#fbf2e6] text-[#a4632b]'
+                        : 'text-gray-700 hover:bg-[#fbf2e6] hover:text-[#a4632b]'
+                        }`}
                       onClick={handlePolicyClick}
                     >
                       <FiFileText className="text-[#a4632b] text-base sm:text-lg" />
                       Terms of Service
                     </Link>
-                    
-                    <Link 
-                      to="/hipaa-compliance" 
-                      className={`flex items-center gap-2 sm:gap-3 px-4 sm:px-5 py-2.5 sm:py-3 text-xs sm:text-sm font-medium rounded-lg transition-colors ${
-                        isActive('/hipaa-compliance') 
-                          ? 'bg-[#fbf2e6] text-[#a4632b]' 
-                          : 'text-gray-700 hover:bg-[#fbf2e6] hover:text-[#a4632b]'
-                      }`}
+
+                    <Link
+                      to="/hipaa-compliance"
+                      className={`flex items-center gap-2 sm:gap-3 px-4 sm:px-5 py-2.5 sm:py-3 text-xs sm:text-sm font-medium rounded-lg transition-colors ${isActive('/hipaa-compliance')
+                        ? 'bg-[#fbf2e6] text-[#a4632b]'
+                        : 'text-gray-700 hover:bg-[#fbf2e6] hover:text-[#a4632b]'
+                        }`}
                       onClick={handlePolicyClick}
                     >
                       <FiShield className="text-[#a4632b] text-base sm:text-lg" />
@@ -230,14 +223,42 @@ const Footer = () => {
                 { icon: <FaInstagram />, link: '#' },
                 { icon: <FaYoutube />, link: '#' }
               ].map((social, index) => (
-                <a 
+                <a
                   key={index}
-                  href={social.link} 
+                  href={social.link}
                   className="w-10 h-10 sm:w-11 sm:h-11 bg-[#a4632b] text-white rounded-full flex items-center justify-center hover:scale-110 hover:shadow-lg hover:bg-[#cd8d34] transition-all"
                 >
                   {social.icon}
                 </a>
               ))}
+            </div>
+
+            {/* Partner Logos */}
+            <div className="flex items-center gap-6 mt-6">
+              {/* HIPAA Logo */}
+              <div className="flex items-center justify-center">
+                <img
+                  src="/assets/svgs/hipaalogo.png"
+                  alt="HIPAA"
+                  className="h-[30px] sm:h-[35px] md:h-[40px] w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 hover:scale-105 transition-all duration-400 cursor-pointer"
+                />
+              </div>
+              {/* APD Logo */}
+              <div className="flex items-center justify-center">
+                <img
+                  src="/assets/svgs/apdlogo.jpeg"
+                  alt="APD - Agency for Persons with Disabilities"
+                  className="h-[30px] sm:h-[35px] md:h-[40px] w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 hover:scale-105 transition-all duration-400 cursor-pointer"
+                />
+              </div>
+              {/* Florida Logo */}
+              <div className="flex items-center justify-center">
+                <img
+                  src="/assets/svgs/floridalogo.png"
+                  alt="State of Florida"
+                  className="h-[30px] sm:h-[35px] md:h-[40px] w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 hover:scale-105 transition-all duration-400 cursor-pointer"
+                />
+              </div>
             </div>
           </div>
         </div>
