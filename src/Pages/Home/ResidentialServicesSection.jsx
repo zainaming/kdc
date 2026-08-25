@@ -48,6 +48,7 @@ const ResidentialServicesSection = () => {
              </div>
              <h2 className="text-4xl md:text-5xl font-bold text-[#2a241f] leading-tight mb-6">
                Our Services is 
+               {/* commending bcz push */}
                 <br className="hidden md:block"/> For KDC Serenity Home
              </h2>
              
