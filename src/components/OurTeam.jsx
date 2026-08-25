@@ -3,7 +3,7 @@ import React from 'react';
 import { FaFacebookF } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa6";
- 
+
 import team2 from '../assets/teamM1.png'
 import team3 from '../assets/teamM2.jpg'
 
@@ -12,8 +12,8 @@ const teamMembers = [
     name: "Dr. Claudia Porter-Lawrence, DNP, PMHNP-BC",
     role: "Owner/Administrator/ Direct Care Staff (DCP)",
     desc: "Our care coordinators plan and manage daily support tailored to each individual.",
-  
-      image: team2,
+
+    image: team2,
   },
   {
     name: "Keisha Nathan",
@@ -27,7 +27,7 @@ const OurTeam = () => {
   return (
     <section className="bg-white py-16 lg:py-10">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        
+
         {/* Top Tag */}
         <div className="flex justify-center mb-6">
           <div className="inline-block px-7 py-2 border-2 border-[#2a241f] text-[#2a241f] rounded-full text-lg font-medium">
