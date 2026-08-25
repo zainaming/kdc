@@ -9,7 +9,7 @@ import { RiShieldKeyholeLine } from "react-icons/ri";
 const Hero = () => {
   return (
     <section className="">
-      <div className=" bg-[#fbf2e6] max-w-[1600px] mx-auto md:mt-1 mt-6 px-4 sm:px-6 lg:px-8  md:pt-20 pt-0 lg:pt-24 pb-8 ">
+      <div className=" bg-[#fbf2e6] max-w-7xl mx-auto md:mt-1 mt-6 px-4 sm:px-6 lg:px-8  md:pt-20 pt-0 lg:pt-24 pb-8 ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 items-center">
           {/* Left Content */}
           <div className="space-y-5 sm:space-y-5 md:space-y-5 order-2 lg:order-1 md:mt-4">
