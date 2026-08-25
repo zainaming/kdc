@@ -8,20 +8,20 @@ import { Typography } from "../../components/shared/Typography";
 
 const KDCHome = () => {
   return (
-    <div className="container2 flex gap-10 xl:gap-16 max-lg:flex-col items-start my-12 px-4 md:px-12">
+    <div className="max-w-7xl mx-auto flex gap-10 xl:gap-16 max-lg:flex-col items-start my-12 px-4 md:px-12">
       {/* Left Content Side: Left alignment fixed */}
       <div className="flex-1 space-y-6 text-left">
-       <div className="flex flex-col items-start text-left space-y-3">
-  {/* Redesigned Subtitle to match the image */}
-  <span className="text-[#8B9386] font-sans font-semibold italic uppercase tracking-widest text-xs sm:text-sm">
-    RESIDENCES IMAGES
-  </span>
+        <div className="flex flex-col items-start text-left space-y-3">
+          {/* Redesigned Subtitle to match the image */}
+          <span className="text-[#8B9386] font-sans font-semibold italic uppercase tracking-widest text-xs sm:text-sm">
+            RESIDENCES IMAGES
+          </span>
 
-  <Typography size="h1" className="text-[#2D2621] font-serif font-medium text-3xl md:text-4xl lg:text-5xl leading-tight">
-    KDC Serenity Home Located in Palm Bay, Florida
-  </Typography>
-</div>
-        
+          <Typography size="h1" className="text-[#2D2621] font-serif font-medium text-3xl md:text-4xl lg:text-5xl leading-tight">
+            KDC Serenity Home Located in Palm Bay, Florida
+          </Typography>
+        </div>
+
         <div className="space-y-4 text-[#5A4E45] font-normal leading-relaxed text-sm md:text-base">
           <Typography size={"lg"} className="text-desc-color">
             KDC Serenity Home is a thoughtfully designed sober living residence
