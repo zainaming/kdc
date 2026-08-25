@@ -14,31 +14,31 @@ const testimonials = [
   },
   {
     name: "Michael R",
-    location: "Austin, TX",
+    location: "Miami, Florida",
     quote: "“We are so grateful for the compassionate care and attention to detail. The support workers truly understand our daughter's needs and make every day better.”",
     image: testi,
   },
   {
     name: "Emily T",
-    location: "New York, NY",
+    location: "Naples, Florida",
     quote: "“The coordinators are exceptional at creating personalized plans. Our family feels heard, supported, and confident in the care provided.”",
     image: testi3,
   },
   {
     name: "David K",
-    location: "Seattle, WA",
+    location: "Kissimmee, Florida",
     quote: "“The support we received was life-changing. Every team member showed genuine care and dedication to our family's needs.”",
     image: testi1,
   },
   {
     name: "Jennifer L",
-    location: "Boston, MA",
+    location: "Jacksonville, Florida",
     quote: "“I appreciate how they listen to our concerns and adapt quickly. The communication is always clear and compassionate.”",
     image: testi,
   },
   {
     name: "Robert P",
-    location: "Denver, CO",
+    location: "Melbourne, Florida",
     quote: "“Their commitment to quality care shines through in every interaction. We couldn't be happier with the support we've received.”",
     image: testi3,
   },
@@ -60,10 +60,10 @@ const TestimonialsSection = () => {
   return (
     <section className="bg-white py-8 md:py-8 lg:py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* PARENT GRID - 2 COLUMNS ON MD/LG, 1 COLUMN ON SM */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 md:gap-12 items-start">
-          
+
           {/* COLUMN 1: TEXT CONTENT */}
           <div className="space-y-6">
             <div className="inline-block px-4 py-1.5 border-2 border-[#2a241f] text-[#2a241f] rounded-full text-sm font-medium">
@@ -76,7 +76,7 @@ const TestimonialsSection = () => {
               Discover real-life experiences from families who have benefited from our services. These stories highlight the impact of personalized care, support, and guidance.
             </p>
 
-             <div className="flex justify-start gap-4">
+            <div className="flex justify-start gap-4">
               <button
                 onClick={handlePrev}
                 aria-label="Previous testimonial"
@@ -97,10 +97,10 @@ const TestimonialsSection = () => {
 
           {/* COLUMN 2: SINGLE TESTIMONIAL (IMAGE + CONTENT IN ONE ROW) */}
           <div className="space-y-8">
-            
+
             {/* TESTIMONIAL GRID - IMAGE + CONTENT SIDE BY SIDE */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 ">
-              
+
               {/* IMAGE CARD */}
               {/* <div className="relative rounded-2xl overflow-hidden shadow-xl ">
                 <img
@@ -109,7 +109,7 @@ const TestimonialsSection = () => {
                   className="w-full h-96 md:h-96 lg:h-96 object-cover"
                 />
               </div> */}
-              
+
               {/* CONTENT CARD */}
               <div className="bg-[#fbf2e6] rounded-2xl p-6 flex flex-col justify-center w-full md:w-[580px] ">
                 <div className="text-gray-800 text-base md:text-lg italic leading-relaxed mb-6 pl-4 py-1">
@@ -120,12 +120,12 @@ const TestimonialsSection = () => {
                   <p className="text-gray-600">{current.location}</p>
                 </div>
               </div>
-              
+
             </div>
 
             {/* ARROWS BELOW TESTIMONIAL */}
-           
-            
+
+
             {/* INDICATOR DOTS */}
             {/* <div className="flex justify-center gap-2">
               {testimonials.map((_, index) => (
@@ -140,7 +140,7 @@ const TestimonialsSection = () => {
               ))}
             </div> */}
           </div>
-          
+
         </div>
       </div>
     </section>
